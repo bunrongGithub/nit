@@ -1,0 +1,33 @@
+1 - How many stage in Git?
+ans:
+	1.Working Directory (or Working Tree):
+
+	-This is where you make changes to your files. The files are located on your local disk, and any changes you make (add, edit, delete 	files) happen here.
+
+	2.Staging Area (or Index):
+
+	-This is where you place files that you want to commit. It's a file, also called the "index," which stores information about what 	will go into the next commit.
+	-You use the git add command to move changes from the working directory to the staging area.
+	3.Repository (or Git Repository):
+	-This is where the committed files are stored. It holds the entire history of your project. Once you've staged changes, you use the 	git commit command to move them from the staging area to the repository.
+
+2-Explain below useful command: git init, git add, git commit
+ans:
+	- git init: Initializes a new Git repository.
+	- git add: Stages changes to be committed.
+	- git commit: Commits the staged changes to the repository.
+
+3.Explain below useful command when working with GitHub: git remote add origin <url>, git push, git pull
+ans:
+	- git remote add origin <url>: Links your local repository to a remote GitHub repository.
+	- git push: Uploads your local commits to the remote repository.
+	- git pull: Fetches and merges changes from the remote repository to your local repository.
+	
+4.What does pull request mean?
+ans:
+ . A pull request is a method of submitting your changes to be reviewed and merged into a main project, allowing for collaboration, code review, and quality control. It’s an essential tool for working with shared codebases, particularly in open-source projects and team environments.
+
+5.Creating Your First Repository on GitHub  then use you editor to commit and push your code into GitHub repo!
+ans:
+
+
